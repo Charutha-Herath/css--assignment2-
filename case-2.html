@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+
+        header{
+            background-color: lightskyblue;
+            position: relative;
+            /*width: 100vw;*/
+            height: 60px;
+            /* padding: 10px;
+             box-sizing: border-box;*/
+        }
+        header>img{
+            position: absolute;
+            padding: 15px;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        header>nav{
+            /*position: absolute;
+            top: 0;
+            right: 10px;
+            bottom: 0;
+            margin: auto; !* margin-right: 2px;*!
+            height: fit-content;
+
+            padding: 25px;*/
+
+
+            position: absolute;
+            width: fit-content;
+            right: 0;
+            padding: 20px;
+        }
+        header>nav>ul{
+            padding: 0;
+            margin: 0;
+
+        }
+        header>nav>ul>li{
+            display: inline-block;
+            margin-right: 15px;
+
+        }
+
+        footer{
+            background-color: darkgray;
+            text-align: center;
+            color: white;
+            /*padding-top: 20px;
+            padding-bottom: 20px;*/
+
+            /*padding: <top - bottom> <left - right>;
+            padding: 20px 0px;
+            padding: 0px 20px;
+            padding: 20px 40px;*/
+
+            padding: 20px 0px;
+
+           /* padding-right: 20px;*/
+        }
+
+        main{
+            position: relative;
+        }
+
+        main>aside{
+            background-color: mediumpurple;
+            color: white;
+
+            width: 150px;
+
+            position: absolute;
+
+            box-sizing: border-box;
+
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+
+
+            /*background: purple;
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            width: 200px;*/
+        }
+
+        main>aside>ul{
+
+            list-style: none;
+            margin: 0;
+        }
+
+        main>section{
+           /* background-color: yellow;*/
+            /*position: absolute;*/
+
+            /*width: calc(100vw - 150px);*/
+           /* height: calc(100vw - 150px);*/
+            /*right: 0;*/
+
+            /*left: 150px;*/
+
+
+            margin-left: 150px;
+            box-sizing: border-box;
+        }
+        main>section>p{
+            margin: 0;
+        }
+
+        main>section>div{
+            position: relative;
+            /*height: 250px;*/
+        }
+
+        section>div>div{
+            /*width: 300px;
+            height: 300px;
+            border: 2px solid red;
+
+            position: absolute;*/
+
+
+
+            margin-right: -5px;
+
+            width: calc(100% / 3);
+            height: 300px;
+
+            border: 2px solid powderblue;
+            display: inline-block;
+            box-sizing: border-box;
+
+        }
+       /* #gif1{
+            left: 150px;
+        }
+
+        #gif2{
+            left: 450px;
+        }
+
+        #gif3{
+            left: 750px;
+        }*/
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="assets/image/ijse.png" title="ijse.lk" alt="ijse" width="250">
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contacts</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <!--sidebar-->
+    <aside>
+        <ul>
+            <li><h3>Home</h3></li>
+            <li><h3>Service</h3></li>
+            <li><h3>Contact</h3></li>
+            <li><h3>About us</h3></li>
+        </ul>
+    </aside>
+
+    <!--content-->
+    <section>
+        <!--gif-->
+        <div>
+            <div><img src="assets/gif/bird-flying.gif" alt="bird.gif" width="300px" height="300px"></div>
+            <div><img src="assets/gif/bird-flying.gif" alt="bird.gif" width="300px" height="300px"></div>
+            <div><img src="assets/gif/bird-flying.gif" alt="bird.gif" width="300px" height="300px"></div>
+
+        </div>
+
+        <br><br><br>
+
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae consequatur debitis, exercitationem expedita id illo in laborum, molestias nulla odit optio perferendis possimus quam quasi qui sapiente tempora tenetur.
+            </p>
+
+
+    </section>
+</main>
+
+<footer>
+    Developed by IJSE
+</footer>
+
+
+</body>
+</html>
